@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for SpeechToText app -->
+    <style name="Theme.SpeechToText" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- Primary colors for your app -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+
+        <!-- Customize status bar color -->
+        <item name="android:statusBarColor">@color/primaryDarkColor</item>
+
+        <!-- Customize navigation bar color -->
+        <item name="android:navigationBarColor">@color/primaryColor</item>
+
+        <!-- Text and background color -->
+        <item name="android:textColorPrimary">@color/textColor</item>
+        <item name="android:windowBackground">@color/backgroundColor</item>
+
+        <!-- FloatingActionButton (FAB) Style -->
+        <item name="floatingActionButtonStyle">@style/Widget.FloatingActionButton.Custom</item>
+    </style>
+
+    <!-- FloatingActionButton custom style -->
+    <style name="Widget.FloatingActionButton.Custom" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/fabColor</item>
+        <item name="rippleColor">@color/accentColor</item>
+    </style>
+</resources>
